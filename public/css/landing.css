@@ -1,0 +1,215 @@
+/*.container{
+	border:1px solid #000;
+}*/
+
+body{
+	background: #fff;
+}
+
+/*.navbar-default{
+	border-color: none;
+}*/
+
+.nav a{
+	text-transform: uppercase;
+}
+
+#slider {
+	background-image: url("/images/slider.png");
+	position: relative;
+	min-height: 755px;
+}
+
+#slider img{
+	position: absolute;
+	top: 60px;
+	left: 100px;
+}
+
+#slider .text{
+    position: absolute;
+    width: 30%;
+    top: 140px;
+    left: 485px;
+    color: #fff;
+}
+
+#slider .text h2{
+	font-size: 56px;
+}
+
+#slider .text p{
+	font-size: 16px;
+}
+
+/*.slider .button{*/
+#slider button{
+	background: none;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    padding: 10px 45px;
+}
+
+#slider a{
+	color: #fff;
+	font-size: 22px;
+}
+
+.navbar-default {
+    border-color: #fff;
+}
+
+.title{
+	font-size: 42px;
+	text-align: center;
+	margin: 40px; 
+}
+
+#about img{
+	margin:0px auto;
+}
+
+#about .col-md-4{
+	text-align: center;
+}
+
+#about img{
+	border-radius: 50%;
+    margin-left: 6%;
+    width: 90%;
+}
+
+#about a{
+	color: #000;
+	font-weight: bold;
+}
+
+#services i{
+	color: red;
+    font-size: 45px;
+    padding: 10px 14px;
+    border: 2px solid #ff3333;
+    border-radius: 50%;
+}
+
+#services .box p{
+	text-align: center;
+	color: #000;
+	font-size: 24px;
+}
+
+#services .col-md-4{
+	padding: 30px 0px;
+}
+
+#services .box{
+	padding: 0px 34px;
+	border-right: 1px solid #b8b894;
+}
+
+#services .col-md-4:last-child .box {
+	border-right: none;	
+}
+
+#portfolio .nav li{
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 7%;
+	border: 1px solid #ccccb3;
+}
+
+/*.portfolio .nav li .active{
+	border:1px solid red;
+	background: none; 
+}
+.portfolio .active a {
+	color: red;
+}*/
+
+/*.portfolio img{
+	border-radius: 0%;
+}*/
+
+#clients .brand-clients{
+	background: red;
+	padding: 20px;
+}
+
+#team {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+#team .subtitle{
+	text-align: center;
+}
+
+#team .title{
+	margin-bottom: 0px; 
+}
+
+#team .row{
+	text-align: center;
+}
+
+#team .position{
+	padding: 10px;
+}
+
+#team .position p{
+	color: #000;
+	font-size: 20px;
+}
+
+#team img{
+	margin: 10px; 
+	border-bottom: 3px solid red;
+}
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 10px 30px;
+	 background-color: rgba(0, 0, 0, 0.7);
+	 font-size: 25px;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+ul.social-network .fa{
+	color: #fff;
+}
+
+#team ul.social-network{
+	left: 26%;
+    position: absolute;
+    top: 51%;
+}
+
+#contact{
+	background: #000;
+	color: #fff;
+}
+
+#contact hr{
+	/*background-color: #c1c1a4;*/
+	border-top: 1px solid #c1c1a4;
+	margin: 60px 0px 15px;
+}
+
+#contact p{
+	text-align: center;
+}
+
+/*admin*/
+
+footer .admin{
+	height: 100px;
+}
+
+
+
